@@ -1,7 +1,13 @@
 
 // src/main.rs
-// hello world
+use yew::Renderer;
+
+mod components;
+mod utils;
+use crate::app::App;
+
+mod app;
 
 fn main() {
-    println!("Hello, world!");
+    Renderer::<App>::new().render();
 }
