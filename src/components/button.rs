@@ -1,7 +1,7 @@
 // src/components/button.rs
 
 use yew::prelude::*;
-use crate::utils::format_click_message;
+use crate::utils::click_message::format_click_message;
 
 
 #[derive(Properties, PartialEq)]

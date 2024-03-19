@@ -3,7 +3,7 @@
 use yew::prelude::*;
 
 use crate::components::Button;
-use crate::utils::format_click_message;
+use crate::utils::click_message::format_click_message;
 
 #[function_component(App)]
 pub fn app() -> Html {

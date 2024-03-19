@@ -1,4 +1,4 @@
-// src/components/mod.rs
+// src/components/components.rs
 
 mod button;
 pub use button::Button;
